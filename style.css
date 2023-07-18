@@ -1,0 +1,70 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: beige;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: bold;
+
+}
+
+.menu{
+    display: flex;
+
+}
+
+.menu li{
+    margin-left: 15px;
+}
+
+.menu :hover{
+    color: #ff0000;
+}
+
+
+main{
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    background-color: aquamarine;
+}
+
+
+.imagem img{
+    width: 100%;
+}
+
+.titulo{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+@media(max-width:425px){
+    .logo{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu{
+        display: block;
+        text-align: center;
+    }
+
+    .menu li{
+        margin-left: 0;
+    }
+
+    .menu a{
+        margin-top: 15px;
+        display: block;
+    }
+
+    nav{
+        width: 100%;
+    }
+}
